@@ -1,11 +1,16 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .set {
-    width: 20%;
-    float: left;
+    
+    margin: 0 15px 30px;
+    padding: 20px;
+    border-radius: 6px;
+    width: calc(50% -15);
   }
   
   .set h2 {
@@ -18,7 +23,7 @@ body {
   
   ul {
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
   }
   
@@ -33,16 +38,20 @@ body {
   }
   
   #MyTitle {
+    flex-shrink: 0;
+    width: 100%;
     text-align: center;
-    background-color: #555;
+    background-color: #046513;
     color: white;
     padding: 10px;
     border: 1px solid #000;
   }
   
   #MyFoot {
+    flex-shrink: 0;
+    width: 100%;
     text-align: center;
-    background-color: #555;
+    background-color: #054522;
     color: white;
     padding: 10px;
     border: 1px solid #000;
@@ -50,6 +59,16 @@ body {
   
   /* Change background color on hover */
   li:hover {
-    background-color: #DDD;
+    background-color: #ddd;
+  }
+  #Adiv{
+
+
+  }
+  #Bdiv{
+  }
+  #Cdiv{
   }
   
+  #Ddiv{
+  }
