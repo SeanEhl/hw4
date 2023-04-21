@@ -76,12 +76,14 @@ body {
     background-color: #676767;
   }
   /* Mobile devices */
+  /*most phones have pixel width under 420px*/
   @media only screen and (max-width: 420px) {
     body{
       flex-direction: column;
     }
   }
-  /* reduced window size devices */
+  /* tablet devices */
+  /*recommended tablet pixel width at 768px*/
   @media only screen and (min-width: 421px) and (max-width: 799px) {
     .set{
       width: calc(50% - 70px);
