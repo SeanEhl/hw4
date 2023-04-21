@@ -76,13 +76,13 @@ body {
     background-color: #676767;
   }
   /* Mobile devices */
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 450px) {
     body{
       flex-direction: column;
     }
   }
   /* reduced window size devices */
-  @media only screen and (min-width: 401px) and (max-width: 799px) {
+  @media only screen and (min-width: 451px) and (max-width: 799px) {
     .set{
       width: calc(50% - 70px);
     }
