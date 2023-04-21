@@ -10,7 +10,6 @@ body {
     margin: 0 15px 30px;
     padding: 20px;
     border-radius: 6px;
-    width: calc(50% -15);
   }
   
   .set h2 {
@@ -56,19 +55,84 @@ body {
     padding: 10px;
     border: 1px solid #000;
   }
-  
-  /* Change background color on hover */
-  li:hover {
-    background-color: #ddd;
-  }
+
   #Adiv{
-
-
+    background-color:rgb(234, 255, 0);
   }
   #Bdiv{
+    background-color:rgb(245, 0, 196);
+
   }
   #Cdiv{
+    background-color:rgb(34, 0, 255);
   }
   
   #Ddiv{
+    background-color:rgb(187, 0, 255);
+  }
+  
+  /* Change background color on hover */
+  li:hover {
+    background-color: #676767;
+  }
+  /* Mobile devices */
+  @media only screen and (max-width: 400px) {
+    body{
+      flex-direction: column;
+    }
+  }
+  /* reduced window size devices */
+  @media only screen and (min-width: 401px) and (max-width: 799px) {
+    .set{
+      width: calc(50% - 70px);
+    }
+
+    #Adiv{
+
+
+
+    }
+    #Bdiv{
+
+
+    }
+    #Cdiv{
+      order: 3;    
+    }
+    
+    #Ddiv{
+      order: 4; 
+    }
+    #MyFoot {
+      order: 5;
+    }
+  }
+  /* desktop */
+  @media only screen and (min-width: 800px) {
+    .set{
+      width: calc(25% - 70px);
+    }
+    #MyTitle{
+      order: 0;
+    }
+    #Adiv{
+      order: 1;
+
+
+    }
+    #Bdiv{
+      order: 4;
+
+    }
+    #Cdiv{
+      order: 2;    
+    }
+    
+    #Ddiv{
+      order: 3;    
+    }
+    #MyFoot {
+      order: 5;
+    }
+    
   }
